@@ -1,0 +1,24 @@
+.history {
+    background-color: #e9e9e9;
+    display: flex;
+    padding: 50px 80px 50px 80px;
+}
+
+#enzo {
+    width: 450px;
+    height: 700px;
+    box-shadow: -10px 10px 20px 2px rgba(0, 0, 0, 0.20);
+    margin-left: 80px;
+}
+
+.subTitle {
+    text-align: center;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.text {
+    text-align: center;
+    font-weight: 100;
+    font-size: 18px;
+}

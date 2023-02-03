@@ -7,5 +7,6 @@
 :root {
     --title: 24px; /* semi-bold */
     --text: 16px; /* regular */
-
+    --text-white: #fffefe;
+    
 }
