@@ -1,0 +1,11 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', 'Arial';
+}
+
+:root {
+    --title: 24px; /* semi-bold */
+    --text: 16px; /* regular */
+
+}
