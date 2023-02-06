@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Ferrari_Page/static/css/main.9eeabc8f.css",
+    "main.js": "/Ferrari_Page/static/js/main.0b5c337f.js",
+    "static/js/787.fc951971.chunk.js": "/Ferrari_Page/static/js/787.fc951971.chunk.js",
+    "static/media/car.png": "/Ferrari_Page/static/media/car.0b3bd913036d046a7582.png",
+    "static/media/f1.png": "/Ferrari_Page/static/media/f1.79e3cc883415c7562f85.png",
+    "static/media/store.png": "/Ferrari_Page/static/media/store.9cf53faec98af8fe4f6c.png",
+    "static/media/enzo.png": "/Ferrari_Page/static/media/enzo.2e4b909418422fe44a34.png",
+    "index.html": "/Ferrari_Page/index.html",
+    "main.9eeabc8f.css.map": "/Ferrari_Page/static/css/main.9eeabc8f.css.map",
+    "main.0b5c337f.js.map": "/Ferrari_Page/static/js/main.0b5c337f.js.map",
+    "787.fc951971.chunk.js.map": "/Ferrari_Page/static/js/787.fc951971.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9eeabc8f.css",
+    "static/js/main.0b5c337f.js"
+  ]
+}
