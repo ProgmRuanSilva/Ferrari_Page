@@ -1,11 +1,14 @@
 import React from "react";
 import './racing.css'
+import { motion } from "framer-motion";
 
 export default function Racing() {
     return (
         <div className="racing">
-            <img  className="f1Img" src={require('../../assets/f1.png')} alt="f1Team" />
-            <div className="containerRacing">
+            <motion.img  className="f1Img" src={require('../../assets/f1.png')} alt="f1Team"
+                initial={{ x: -180}} whileInView={{ x: 0 }} transition={{ type: "tween", duration: 1.7  }} />
+            <motion.div className="containerRacing" 
+                initial={{ x: -180}} whileInView={{ x: 0 }} transition={{ type: "tween", duration: 1.7  }} >
                 <h2 className="subTitle">F1 Team</h2>
                 <h3 className="text">
                     Ferrari started the season in the best way possible, securing a one-two finish at the opening round in Bahrain.<br />
@@ -26,7 +29,7 @@ export default function Racing() {
                     <br />
                     It operated as a well-oiled machine with strategy and pit stops. Two wins and a second place gave Leclerc a healthy championship lead, while Verstappen and Red Bull were forced to think fast to turn around a very difficult situation.<br />
                 </h3>
-            </div>
+            </motion.div>
         </div>
     )
 }

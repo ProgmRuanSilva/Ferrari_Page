@@ -1,11 +1,14 @@
 import React from "react";
 import './today.css'
+import { motion } from "framer-motion";
 
 export default function Today() {
     return (
         <div className="today">
-            <img className="storeImg" src={require('../../assets/store.png')} />
-            <div className="containerToday">
+            <motion.img className="storeImg" src={require('../../assets/store.png')} 
+                initial={{ x: 190}} whileInView={{ x: 0 }} transition={{ type: "tween", duration: 1.5  }} />
+            <motion.div className="containerToday"
+                initial={{ x: 180}} whileInView={{ x: 0 }} transition={{ type: "tween", duration: 1.5  }} >
                 <h2 className="subTitleWhite">Ferrari Today</h2>
                     <h3 className="textWhite">
                         Besides being known for producing some of the best and fastest cars in history, Ferrari is most associated with its symbol the Cavallino Rampante or the prancing horse and its vibrant red color.<br />
@@ -26,7 +29,7 @@ export default function Today() {
                         <br />
                         When it comes to Formula One racing, Ferrari holds the title for the longest-standing and most successful competitor.<br />
                     </h3>
-            </div>
+            </motion.div>
         </div>
     )
 }

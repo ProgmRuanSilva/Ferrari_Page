@@ -1,10 +1,12 @@
 import React from "react";
 import './history.css';
+import { motion } from "framer-motion";
 
 export default function History() {
     return (
         <div className="history">
-            <div className="containerHistory">
+            <motion.div className="containerHistory"
+                initial={{ x: -200}} whileInView={{ x: 0 }} transition={{ type: "tween", duration: 1.5  }} >
                 <h2 className="subTitle">History</h2>
                 <h3 className="text">
                     In 1945, Ferrari introduced a V12 engine which became one of its signatures. <br />
@@ -30,8 +32,9 @@ export default function History() {
                     They had intended for it to be a direct competitor with Ferrari at the time.<br />
                     The departure was said to stem from disputes over Enzo’s wife Laura and her heavy involvement in the running of the company.
                 </h3>
-            </div>
-            <img id="enzo" src={require('../../assets/enzo.png')} />
+            </motion.div>
+            <motion.img id="enzo" src={require('../../assets/enzo.png')} 
+                initial={{ x: -180}} whileInView={{ x: 0 }} transition={{ type: "tween", duration: 1.7  }} />
         </div>
     )
 }
