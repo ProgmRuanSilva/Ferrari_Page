@@ -4,7 +4,8 @@ import './history.css';
 export default function History() {
     return (
         <div className="history">
-            <h2 className="subTitle">History
+            <div className="containerHistory">
+                <h2 className="subTitle">History</h2>
                 <h3 className="text">
                     In 1945, Ferrari introduced a V12 engine which became one of its signatures. <br />
                     <br />
@@ -29,7 +30,7 @@ export default function History() {
                     They had intended for it to be a direct competitor with Ferrari at the time.<br />
                     The departure was said to stem from disputes over Enzo’s wife Laura and her heavy involvement in the running of the company.
                 </h3>
-            </h2>
+            </div>
             <img id="enzo" src={require('../../assets/enzo.png')} />
         </div>
     )

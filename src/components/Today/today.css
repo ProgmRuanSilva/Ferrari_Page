@@ -1,0 +1,32 @@
+.today {
+    background: linear-gradient(90deg, #1A1A1A 0.73%, rgba(26, 26, 26, 0.9058) 29.73%, rgba(26, 26, 26, 0.8035) 64.09%, rgba(0, 0, 0, 0.6) 98.82%);
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.storeImg {
+    width: 543px;
+    height: 812px;
+}
+
+.containerToday {
+    margin-top: 60px;
+    margin-left: 190px;
+    width: 600px;
+    height: 780px;
+}
+
+.subTitleWhite {
+    text-align: center;
+    font-weight: 700;
+    color: var(--text-white);
+}
+
+.textWhite {
+    color: var(--text-white);
+    text-align: center;
+    font-weight: 100;
+    font-size: 18px;
+}

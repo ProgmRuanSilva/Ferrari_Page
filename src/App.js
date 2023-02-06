@@ -8,10 +8,10 @@ import Today from './components/Today';
 function App() {
   return (
     <div className="App">
-      {/* <Header /> */}
+      <Header />
       <History />
-      <Racing />
       <Today />
+      <Racing />
     </div>
   );
 }

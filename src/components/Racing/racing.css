@@ -1,0 +1,19 @@
+.racing {
+    display: flex;
+    background-color: #E9E9E9;
+    padding: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.f1Img {
+    width: 533px;
+    height: 800px;
+    margin-left: 50px;
+    margin-right: 80px;
+}
+
+.containerRacing {
+    width: 620px;
+    margin-left: 130px;
+}
